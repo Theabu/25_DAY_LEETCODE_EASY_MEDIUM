@@ -1,5 +1,6 @@
 class Solution {
 public:
+	Solution(){}
 	vector<int> twoSum(vector<int>& nums, int target) {
 		// edge case 
 		if(target==0) return {}; 
